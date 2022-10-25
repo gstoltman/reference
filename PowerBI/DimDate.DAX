@@ -1,7 +1,7 @@
 DimDate = 
 VAR _minYear = YEAR(MIN(DimEmployee[HireDate]))
 VAR _maxYear = YEAR(MAX(DimEmployee[HireDate]))
-VAR _fiscalStart = 4 
+VAR _fiscalStart = 6
 
 RETURN
 ADDCOLUMNS(
